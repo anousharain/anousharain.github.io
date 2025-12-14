@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>About Me – Anoush Arain</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+
+        body{
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* Glass Section Wrapper */
+        .dark-section{
+            background: rgba(255,255,255,0.04);
+            border-radius: 25px;
+            padding: 70px 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 25px rgba(255,255,255,0.05);
+        }
+
+        h1, h2, h4{
+            letter-spacing: 1px;
+        }
+
+        .about-btn{
+            background: linear-gradient(135deg, #ff758c, #ffb199);
+            border: none;
+            padding: 13px 30px;
+            font-weight: 600;
+            color: #000;
+            border-radius: 30px;
+            transition: 0.3s ease;
+            font-size: 17px;
+        }
+
+        .about-btn:hover{
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(255, 125, 140, 0.45);
+        }
+
+        /* Glass Cards for Skills */
+        .white-card{
+            background: rgba(255,255,255,0.10);
+            border-radius: 20px;
+            padding: 25px;
+            height: 100%;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: 0.3s;
+        }
+
+        .white-card:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 0 35px rgba(255,255,255,0.20);
+        }
+
+        /* Timeline */
+        .timeline-item{
+            border-left: 3px solid #ffb86c;
+            padding-left: 20px;
+            margin-left: 10px;
+            position: relative;
+        }
+
+        .timeline-item::before{
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #ffb86c;
+            border-radius: 50%;
+            position: absolute;
+            left: -9px;
+            top: 2px;
+        }
+
+        .fade-text{
+            opacity: 0.75;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-5 dark-section">
+
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="text-center mb-5">
+      <h1 class="fw-bold display-4 text-gradient">
+        About Me
+      </h1>
+      <p class="mx-auto mt-3 fade-text" style="max-width: 850px; font-size: 18px;">
+        I’m <strong style="color:#ffb86c;">Anoush Arain</strong> — a passionate developer who loves creating clean,
+        responsive, and user-friendly digital experiences.
+      </p>
+    </div>
+
+    <!-- Profile -->
+    <div class="row align-items-center justify-content-center mt-5">
+
+      <!-- Image -->
+      <div class="col-md-5 mb-4 text-center">
+        <img src="images/WhatsApp Image 2025-12-03 at 10.20.00.jpeg"
+             class="img-fluid rounded-4 shadow-lg"
+             alt="Profile Image">
+      </div>
+
+      <!-- Text -->
+      <div class="col-md-6">
+        <h2 class="fw-semibold mb-3" style="color:#ffb86c;">Who I Am</h2>
+
+        <p class="fade-text" style="font-size: 17px;">
+          I’m a Frontend & Programming Enthusiast who enjoys turning ideas into visually appealing
+          and functional web interfaces. I focus on writing clean code, smooth layouts, and 
+          responsive designs that work across all devices.
+        </p>
+
+        <p class="fade-text" style="font-size: 17px;">
+          My tech stack includes HTML, CSS, JavaScript, Java, C++, and MySQL — giving me the
+          ability to build websites, solve programming problems, and work with databases
+          effectively. I also use tools like GitHub and Bootstrap to speed up development.
+        </p>
+
+        <button class="about-btn mt-3">
+          Download Resume <span class="ms-2">↗</span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Skills -->
+    <div class="mt-5 pt-4">
+      <h2 class="fw-bold text-center mb-4" style="color:#4fd2ff;">Skills & Expertise</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="white-card">
+            <h5 class="fw-semibold mb-3" style="color:#ffb86c;">Frontend Development</h5>
+            <p class="small fade-text">
+              HTML5 • CSS3 • JavaScript (ES6) • Responsive Design • Bootstrap • UI Styling
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="white-card">
+            <h5 class="fw-semibold mb-3" style="color:#ffb86c;">Programming Languages</h5>
+            <p class="small fade-text">
+              Java • C++ • OOP Concepts • Logic Building • Problem Solving
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="white-card">
+            <h5 class="fw-semibold mb-3" style="color:#ffb86c;">Database & Tools</h5>
+            <p class="small fade-text">
+              MySQL • SQL Queries • GitHub • VS Code • Java Swing (GUI Basics)
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="mt-5 pt-5">
+      <h2 class="fw-bold text-center mb-5" style="color:#ff6b6b;">Experience</h2>
+
+      <div class="timeline px-md-5">
+
+        <div class="timeline-item mb-5">
+          <h4 class="fw-bold" style="color:#ffb86c;">Techivation</h4>
+          <h6 class="fade-text">Frontend Developer (Part-time) | 2025 – Present</h6>
+          <p class="fade-text mt-2">
+            Working on responsive UI, performance optimization, and interface improvements
+            for modern web applications.
+          </p>
+        </div>
+
+        <div class="timeline-item mb-5">
+          <h4 class="fw-bold" style="color:#ffb86c;">Freelance Projects</h4>
+          <h6 class="fade-text">2024 – Present</h6>
+          <p class="fade-text mt-2">
+            Creating portfolio websites, landing pages, and custom frontend designs
+            for clients from multiple industries.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
